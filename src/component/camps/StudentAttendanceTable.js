@@ -13,7 +13,6 @@ import { Typography } from '@mui/material';
 
 export default function StudentAttendanceTable({ selectedGroup }) {
 
-
     const students = useSelector(state => state.student.students);
     const currentCamp = useSelector(state => state.camp.currentCamp);
     const currentDate = dayjs()
